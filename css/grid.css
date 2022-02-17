@@ -1,0 +1,85 @@
+#wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #313540;
+    margin-bottom: 0.5rem;
+    padding: 0 1.2rem;
+}
+
+header h3 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    padding-left: 9rem;
+}
+
+header .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    height: 64px;
+    width: 42px;
+}
+
+#header {
+    background: #313540;
+    margin-bottom: 0.5rem;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#secondMain {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+}
+
+aside {
+    height: inherit;
+    width: 28%;
+    height: 100%;
+}
+
+article {
+    margin-right: 0.5rem;
+    width: calc(72% - 0.5rem);
+}
+
+footer {
+    background: #313540;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding: 1.6rem 0;
+}
+
+footer span {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+#thirddMain {
+    display: flex;
+    flex-direction: row;
+}
